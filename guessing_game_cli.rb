@@ -5,7 +5,7 @@ def run_guessing_game
   input = gets.chomp
   if input == "exit"
     puts "Goodbye!"
-    break
+    exit
     elsif input.to_i != roll
     puts "Sorry! The computer guesssed #{roll}."
   else input.to_i == roll 
